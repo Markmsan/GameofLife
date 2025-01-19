@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start | Game of Life</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Conway's Game of Life</h1>
+        <div id="mainMenu">
+            <div>
+                <input id="game_name" type="text" placeholder="Enter game name">
+                <button onclick="startNewGame()">New Game</button>
+                <p id="error_message" style="color: red; display: none;">Game name cannot be empty!</p>
+            </div>
+            <button onclick="LoadGames()">Load Game</button>
+        </div>
+    </div>
+    <script src="js/start.js"></script>
+</body>
+</html>

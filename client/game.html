@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Life</title>
+    
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          text-align: center;
+        }
+        canvas {
+          border: 1px solid black;
+          display: block;
+          margin: 20px auto;
+        }
+        button {
+          margin: 1px;
+          padding: 1px 2px;
+          font-size: 16px;
+        }
+      
+    </style>
+</head>
+<body>
+    <body>
+        <h1>Conway's Game of Life</h1>   
+        <button id="toggle_button"  onclick="onChange()">Start</button>
+        <canvas id="gameCanvas" width="500" height="500"></canvas>
+       
+        <div>
+            <label for="grid_width">Grid Width:</label>
+            <input id="grid_width" type="number" min="5" max="50" value="10" step="1">
+            <label for="grid_height">Grid Height:</label>
+            <input id="grid_height" type="number" min="5" max="50" value="10" step="1">
+            <button id="resize_button" onclick="updateGridSize()">Update Grid Size</button>
+            
+        </div>
+
+   
+    <script src="js/game.js"></script>
+    
+</body>
+</html>
