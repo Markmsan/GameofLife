@@ -1,5 +1,4 @@
 # GameofLife
-Conway's Game of Life
 This project implements Conway's Game of Life as a no-player game using a database-server-client architecture. The application allows users to create and manage games, edit the grid, and simulate the game's evolution according to its rules.
 
 ## Installation
