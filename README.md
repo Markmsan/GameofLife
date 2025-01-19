@@ -18,6 +18,7 @@ go mod tidy
 
 1. Navigate to the server directory and run: The server will start on http://localhost:8080.
 ```bash
+cd server
 go run main.go
 ```
 
